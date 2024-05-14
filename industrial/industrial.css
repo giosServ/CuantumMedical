@@ -1,0 +1,400 @@
+@font-face 
+{
+    font-family: ClearSansLight;
+    src: url("fonts/ClearSans-Light.woff");
+}
+
+@font-face 
+{
+    font-family: ClearSansRegular;
+    src: url("fonts/ClearSans-Regular.woff");
+}
+
+@font-face 
+{
+    font-family: ClearSansMedium;
+    src: url("fonts/ClearSans-Medium.woff");
+}
+
+@font-face 
+{
+    font-family: ClearSansItalic;
+    src: url("fonts/ClearSans-Italic.woff");
+}
+
+
+body{
+background-image:url("fondo.png");
+background-size: auto 100vh;
+color: #99999a;
+font-family: 'ClearSansRegular', Sansserif, Sans;
+line-height:150%;
+font-size: 1.2vw;
+}
+
+a:link {
+  text-decoration: none;
+  color:#008080;
+}
+
+a:visited {
+  text-decoration: none;
+  color:#008080;
+}
+
+#cuantumbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#cuantumhead {
+    width: 90vw;
+    display: flex;
+    justify-content: left;
+    position: absolute;
+    top: 5px;
+    left: 5%;
+}
+#cuantumlogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+#cuantumlogo img{
+	max-height: 171px;
+    max-width: 207px;
+}
+#cuantumclaim{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#cuantumclaim p{
+    font-size: 2em;
+    letter-spacing: .34px;
+    color: #99999a;
+}
+
+#cuantumnav{
+    margin-top: 70px;
+    }
+#cuantumnavsup{
+display:flex;
+}
+#cuantummenu {
+    border-bottom: 2px solid #aaa7a0;
+    border-right: 2px solid #aaa7a0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#cuantummenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+    display:flex;
+    justify-content:space-between;
+}
+#cuantuminfo{
+    display: flex;
+    flex-direction: column;
+}
+#cuantuminfo a{
+    display: flex;
+    }
+    #cuantuminfo a img{
+        margin: 0px 5px;
+    }
+.seccio{
+display:none;
+}
+.selectorradio{
+display:none;
+}
+input[type="radio"]:checked+section{
+display:flex;
+}
+section{
+margin-left:5%;
+}
+.column{
+display:flex;
+flex-direction: column;
+    justify-content: center;
+height:70vh;
+max-width:45%;
+}
+
+#section-inicio{
+	justify-content: space-around;
+}
+
+#section-inicio .column{
+text-align:center;
+}
+
+#section-inicio .portaimatges{
+	text-align: center;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    max-height: 100%;
+}
+
+#svginicio{
+    max-height:100%;
+    max-width: 100%;
+}
+#section-inicio .portaimatges img{
+    max-width: 25%;
+    object-fit: contain;
+    max-height:100%;
+}
+
+#section-mision{
+	margin-left:1%;
+	width:70%;
+}
+#section-mision div{
+display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 75vh;
+}
+#section-catalogo .portaimatges{
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 100%;
+}
+#section-catalogo .portaimatges img{
+    max-width: 80%;
+    max-height: 100%;
+    margin-top: 5%;
+}
+#section-catalogo .column{
+    justify-content: space-evenly;
+}
+
+#section-tecnologias{
+	flex-direction:column;
+}
+#section-tecnologias .column{
+	height:35vh;
+}
+.horitzontal{
+	display:flex;
+}
+#section-tecnologias img{
+	max-width:100%;
+	max-height: 100%;
+}
+#section-tecnologias .portaimatges{
+    max-height: 80%;
+    max-width: 100%;
+    text-align:center;
+}
+#section-tecnologias .separador{ 
+	border-bottom: 1px solid #C0C0C0;
+    width: 70%;
+    margin-left: 5%;
+}
+#section-productos{
+margin-left:5%;
+text-align:center;
+}
+#section-productos img{
+	max-height:100%;
+	max-width:70%;
+}
+#section-productos .portaimatges{
+    display: flex;
+    justify-content: center;
+    max-height:70%;
+}
+#section-contacto{
+margin-left:0px;
+}
+#section-contacto .column{
+max-width:40%;
+margin-left:5%;
+}
+#section-contacto img{
+max-width:100%;
+max-height:100%;
+}
+#section-contacto .horitzontal{
+justify-content: space-evenly;
+
+}
+
+.caixacontacte{
+display:flex;
+flex-direction:column;
+    margin-top: 5%;
+}
+.caixacontacte p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.portaimatges a img{
+transition: transform .2s; /* Animation */
+}
+.portaimatges a img:hover{
+transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+}
+
+
+
+
+
+
+
+
+
+.centrat{
+    text-align: center;
+}
+
+.amaga {
+display: none;
+}
+
+
+.mostra {
+display: block;
+}
+
+
+/*
+#cuantummenu li a[pageid="page_dent"].menuselected
+{
+display:inline-block;
+    color: white;
+    font-family: 'ClearSansRegular', Sansserif, Sans;
+    font-weight: 600;
+}
+
+*/
+
+.docdesclist{
+display:flex;
+justify-content:center;
+align-items: center;
+margin-top:10px;
+}
+
+.documentdescnh{
+ max-width:50px;
+}
+.documentdesc:hover .documentdescnh{
+ display:none;
+}
+
+.documentdesch{
+ max-width:50px;
+ display:none;
+}
+.documentdesc:hover .documentdesch{
+ display:block;
+}
+
+.precontrol-me{
+	display:none;
+}
+.amagavideos{
+		display:none;
+}
+.amagavideos:checked ~ .precontrol-me{
+		display:block;
+}
+
+.control-me {
+	display: flex;
+    position: fixed;
+    top: 1vh;
+    left: 1vw;
+    width: 97vw;
+    height: 95vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff9e;
+    border: 1vh solid #d4d3d2ff;
+}
+.closex{
+    position: absolute;
+    top: 1vh;
+    right: 1vw;	
+}
+.video-doc{
+	max-width:70vw;
+	max-height:70vh;
+}
+
+
+
+
+
+.close {
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.3;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #333;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+.docvidlink{
+ max-width:20%;
+}
+
+
+#section-multimedia{
+flex-direction:column;
+max-width:70vw;
+justify-content: space-around;
+    height: 65vh;
+}
+.portavideos{
+display:flex;
+    justify-content: space-around;
+}
+
+
+.docvidlink img{
+    transition: transform .5s;
+}
+.docvidlink img:hover{
+    transform: scale(1.1);
+}
+.columncont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

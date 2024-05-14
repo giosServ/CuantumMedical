@@ -1,0 +1,9 @@
+w3DataObject	w3data.js	/^var w3DataObject = {};$/;"	v
+w3InitTemplate	w3data.js	/^    function w3InitTemplate(id, obj) {$/;"	f	function:w3DisplayData
+w3GetElementsByAttribute	w3data.js	/^    function w3GetElementsByAttribute(x, att) {$/;"	f	function:w3DisplayData
+w3NeedleInHaystack	w3data.js	/^    function w3NeedleInHaystack(elmnt, typ, repeatX, x) {$/;"	f	function:w3DisplayData
+w3ReplaceHTML	w3data.js	/^    function w3ReplaceHTML(a, r, result) {$/;"	f	function:w3DisplayData
+w3DisplayData	w3data.js	/^function w3DisplayData(id, data) {$/;"	f
+xhttp.onreadystatechange	w3data.js	/^      var xhttp = new XMLHttpRequest();$/;"	f
+w3IncludeHTML	w3data.js	/^function w3IncludeHTML() {$/;"	f
+w3Http	w3data.js	/^function w3Http(target, readyfunc, xml, method) {$/;"	f

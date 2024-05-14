@@ -1,0 +1,1392 @@
+@font-face 
+{
+    font-family: ClearSansLight;
+    src: url("fonts/ClearSans-Light.woff");
+}
+
+@font-face 
+{
+    font-family: ClearSansRegular;
+    src: url("fonts/ClearSans-Regular.woff");
+}
+
+@font-face 
+{
+    font-family: ClearSansMedium;
+    src: url("fonts/ClearSans-Medium.woff");
+}
+
+@font-face 
+{
+    font-family: ClearSansItalic;
+    src: url("fonts/ClearSans-Italic.woff");
+}
+
+body 
+{
+    margin: 0;
+    width:100%;
+    padding: 0;
+    font-family: 'ClearSansLight', Sansserif, Sans;
+    font-weight: 100;
+    font-size: 15px;
+    
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #99999a;
+}
+
+h1
+{
+    font-family: 'ClearSansMedium', Sansserif, Sans;
+}
+
+h2
+{
+    font-weight: 400;
+    color: #888;
+    
+}
+
+#cuantumbody
+{
+	width:100%;
+    display: block;
+}
+
+#cuantumhead
+{
+   padding-bottom:40px;
+    display: block;
+    text-align: center;
+}
+
+
+#cuantumlogo
+{
+    display: block;
+    padding: 20px 12% 0 12%;
+    width: 76%;
+    text-align: center;
+    cursor: pointer;
+}
+
+#cuantumclaim
+{
+display: inline-block;
+    vertical-align: top;
+    letter-spacing: .34px;
+    padding: 0% 12% 0 14%;
+    width: 74%;
+}
+
+.cgreen			{	color:	#3abc9f; }
+.cyellow		{	color:	#ffa500;	}
+.cyellowdark    {   color:	hsl(39, 100%, 30%);	 }
+.cred			{	color:	#f90362;	}
+.creddark		{	color:	hsl(337, 98%, 40%);	}
+.cgreen-back	{	background-color:	#3abc9f;	}
+.cyellow-back	{	background-color:	#ffa500;	}
+.cred-back		{	background-color:	#f90362;	}
+.cgray          {   color: #99999a;    }
+.cblue  {  color: #14A7EB ;}
+.cblack  {  color: #000000 ;}
+.cwhite {color:white ;} 
+
+#cuantummenu
+{
+    width: 100%;
+    display: table-cell;
+}
+
+#cuantummenu li
+{
+    display: inline-block;
+    width:35%;
+    padding-bottom: 10px;
+}
+
+#cuantummenu ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#cuantummenu li a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    color: #99999a;
+    text-align: left;
+    
+  -webkit-transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -o-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+}
+
+#cuantummenu li a.menuselected
+{
+    color:black;
+    font-family: 'ClearSansRegular', Sansserif, Sans;
+    font-weight: 600;    
+}
+
+#cuantummenu li a:hover 
+{
+    background-color: #555;
+    color: white;
+}
+
+.menuseparator {
+    display:inline-block;
+    width:0px;
+}
+
+#cuantuminfo 
+{
+    display: block;
+    vertical-align: top;
+    color: #555;
+
+text-align: center;
+    width:100%;
+    margin-top: 20px;
+    
+    line-height: 2em;
+}
+
+#cuantuminfo a
+{
+    color: #888;
+
+    
+}
+
+#cuantuminfo a img {
+margin-left: 9px;
+    margin-right: 12px;
+        vertical-align: middle;
+
+
+}
+
+
+
+#cuantumbread a {
+    color: #006cff;
+}
+
+#cuantumbread {
+padding-left: 2px;
+    padding-top: 23px;
+    font-size: 13px;
+    height: 52px;
+    display: none;
+}
+
+.cuantumslider
+{
+    width: 1190px;
+    height: 560px;
+    position: relative;
+    padding-bottom: 105px;  
+    overflow: hidden;
+    zoom:.31435;
+    text-align: left;
+    display: inline-block;
+}
+
+
+
+.cuantumsblock3 {
+    width:90%;
+        display: block;
+    vertical-align: top;
+    padding: 4em 5% 0 5%;
+}
+
+
+#cuantumfooterflag {
+    
+}
+
+#cuantumfooter {   
+    background-color: #E0E0E0;
+    color: #666;
+    display:block;
+}
+
+.cuantumfooterblock {
+padding: 1em 6% 1em 18%;
+    width: 76%;
+    display: block;
+
+}
+
+#langsel 
+{
+
+}
+
+
+
+.sombra1 {
+    display:block;
+    position: absolute;
+     left:0px;
+    top: 137px;
+    width:1190px;
+    height: 526px;
+}
+
+.cuantumblockhead {
+  
+        padding-left: 5px;
+cursor: pointer;
+}
+
+.cuantumblockbodymright {
+    padding-right: 19px;
+}
+
+.cuantumblockbody {
+    line-height: 1.72em;
+    font-size: 14px;
+    color: #666;
+    font-family: 'ClearSansRegular', Sansserif, Sans;
+        padding-left: 10px;
+}
+
+.cuantumslidershow {
+    position:absolute;
+    width:1190px;
+    height: 564px;
+    
+            -webkit-transition: opacity 1s ease-in-out;
+        -moz-transition: opacity 1s ease-in-out;
+        -ms-transition: opacity 1s ease-in-out;
+        -o-transition: opacity 1s ease-in-out;
+        transition: opacity 1s ease-in-out;
+    
+    opacity: 1;
+}
+
+.cuantumfooterflagsection {
+    display: table-cell;
+    width: 398px;
+    height: 25px;
+}
+
+.cuantumfooterblock h2 {
+    font-size: 16px;
+    width: 85%;
+    border-bottom: 1px solid #666;
+    padding-bottom: 19px;
+    font-weight: 100;
+    color:#333;
+}
+
+#cuantumfootcontact div {
+    padding-bottom: 28px;
+    line-height: 1.5em
+}
+
+#noticiespeu {
+    ipadding-left: 32px;
+}
+
+.peutoticia {
+    padding-bottom: 16px;
+    line-height: 1.3em;
+}
+
+.cosnoticiapeu {
+    font-size: 14px;
+
+}
+
+#cuantumfootnav a {
+    display:block;
+    line-height: 1.8em;
+}
+
+#cuantumfootnav ul {
+        list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+#cuantumfooter a
+{
+    color: #555;
+}
+
+#cuantumfootnav {
+
+}
+
+#cuantumfootnews {
+    
+}
+
+#cuantumsblockmed {
+  
+}
+
+html {
+
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+
+}
+
+.slidetext {
+    position: absolute;
+    color:white;
+    font-size: 76px;
+}
+
+#slidetext11 {
+    left:170px;
+    top:200px;
+}
+
+#slidetext12 {
+    left:400px;
+    top:320px
+}
+
+#cuantumslidershow1 {
+
+}
+
+#slidetext21 {
+        left:90px;
+    top:60px;
+    width:550px;
+    line-height: 1.2em;
+}
+
+#slidetext22 {
+        left:90px;
+    top:260px;
+    width:500px;
+    line-height: 1.2em;
+}
+
+#cuantumslidershow2 {
+
+}
+
+#slidetext31 {
+    left:80px;
+    top:110px;
+    
+    line-height: 1.3em;
+    text-align: right;
+    
+    font-size:60px;
+}
+
+#slidetext32 {
+    
+    left:850px;
+    top:270px;
+
+    width:300px;
+    line-height: 1.3em;
+    text-align: left;
+}
+
+
+
+
+#cuantumnav {
+/*display:none;*/
+}
+#cuantumbread{
+display:none;
+}
+#cuantuminfo{
+display:none;
+}
+
+.cuantumsblocks3 {
+   
+}
+
+            
+
+#page_news {
+
+}
+
+.cuantum_page {
+    display:none;
+    padding-bottom: 75px;    
+}
+
+.cuantum_page.active_page {
+    display: block;
+    padding-bottom: 75px;
+        
+}
+
+#cuantummap {
+    width: 100%;
+    text-align: center;
+        line-height: 0;
+}
+
+#map1 {
+    width: 100%;
+}
+
+.sombra2 {
+    width: 100%;
+}
+
+#maptext {
+    line-height: 2em;
+}
+
+#undermap {
+    font-size: 15px;
+    line-height: 1.7em;
+    width: 80%;
+    display: block;
+    padding: 2em 10% 0px 10%;
+}
+
+#contactform {
+    margin-top: 30px
+}
+
+label {
+    display: block   ;
+    padding-bottom: 6px;
+    padding-top: 30px;
+}
+
+input {
+    width: 98%;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    height: 25px;
+    padding-left: 2%;
+}
+
+textarea {
+    width: 96%;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    height: 250px;
+    padding: 8px 2% 8px 2%;
+}
+
+button {
+    background-color: #b20000;
+    padding: 8px 16px 8px 16px;
+    color: white;
+    border: 1px solid #b20000;
+    border-radius: 3px;
+}
+
+#contact_buttons {
+    margin-top: 32px
+}
+
+
+
+#misiontop {
+    font-size: 18px;
+    line-height: 1.7em;
+
+        width: 85%;
+    display: block;
+    padding: 2em 5% 75px 10%;
+}
+
+.mission2c {
+    width:100%;
+    padding-top: 2em;
+}
+
+.mission2cnou {
+    width:100%;
+    padding-top: 2em;
+}
+
+.mission2c1 {
+
+}
+
+#missiontexts {
+
+        font-size: 15px;
+    line-height: 1.7em;
+
+        width: 85%;
+    display: block;
+    padding: 4em 5% 0px 10%;
+}
+
+.noticia h2 {
+    font-size:28px;
+    line-height: 1.3em;
+    margin-top: 0px;
+    padding: 0 10% 0 10%;
+}
+
+.fotonoticia {
+    width:100%;
+    margin-bottom: 20px;
+}
+
+.noticia.left .divfotonoticia {
+
+    width:100%;
+
+}
+
+.textnoticia {
+        
+    padding: 0 10% 0 10%;
+}
+
+
+
+h3 {
+    font-weight: 200;
+    color: #888;
+    font-size: 23px;
+    padding-bottom: 15px;
+    margin-top: 0px;
+}
+
+.noticia {
+    display: block;
+    clear: both;   
+    padding-bottom: 60px;
+    border-bottom: 1px solid #aaa;    
+    margin-bottom: 30px;    
+}
+
+.clear {
+    clear: both;
+}
+
+.noticia.right .divfotonoticia {
+ 
+width:100%;
+}
+
+.cuantumslidershow.slideinvisible {
+    opacity:0;
+}
+
+#slidetextm11 {
+    left:70px;
+    top:80px;
+    font-size: 64px;
+    width:650px;
+}
+
+
+#slidetextm111 {
+    left:50px;
+    top:50px;
+    font-size: 64px;
+    width:950px;
+}
+
+
+#slidetextm12 {
+     left:70px;
+    top:320px;
+    font-size: 50px; 
+    text-align: right;
+    line-height: 1.3em;
+    width:650px;  
+}
+
+.infotext {
+    font-size: 17px;
+
+    display: block;
+    vertical-align: top;
+    padding: 2em 5% 0 5%;
+        width:90%;
+}
+
+
+.infotextpetit {
+    font-size: 12px;
+
+    display: block;
+    vertical-align: top;
+    padding: 2em 5% 0 5%;
+        width:90%;
+}
+
+
+#cmimgit1 {
+    vertical-align:bottom;
+    margin-right: 10px;
+    display:block;
+    max-width:85%;
+        padding-bottom: 1em;
+}
+
+
+#cmimgnou {
+    vertical-align:bottom;
+    margin-right: 10px;
+    display:block;
+    max-width:85%;
+        padding-bottom: 1em;
+}
+
+
+
+
+
+.cuantumproducttitle {
+font-size: 28px;
+    font-family: 'ClearSansItalic', Sansserif, Sans;
+    letter-spacing: -.02em;
+    padding-bottom: 30px;
+    text-align: center;
+    display:block;
+    
+}
+
+
+.cuantumproducttitlenou {
+font-size: 18px;
+    font-family: 'ClearSansItalic', Sansserif, Sans;
+    letter-spacing: -.02em;
+    padding-bottom: 30px;
+    text-align: center;
+    display:block;
+    
+}
+
+
+
+.cuantumname {
+      font-family: 'ClearSansMedium', Sansserif, Sans;
+    color:#888;
+}
+
+.cuantumproducttextseparator {
+    display: none;
+}
+
+.cuantumproductimage {
+    display: block;
+
+    text-align: center;
+    vertical-align: middle;
+        margin-bottom: 2em;
+}
+
+
+.cuantumproductimagenou {
+    display: block;
+
+    text-align: center;
+    vertical-align: middle;
+        margin-bottom: 2em;
+}
+
+
+
+
+.cuantumproducttext {
+    text-align: left;
+    vertical-align: top;
+}
+
+.cuantumproducttextb1 {
+
+    text-align: left;
+    vertical-align: top;
+    line-height: 1.8em;
+    
+}
+
+.cuantumproducttextcaract {
+    text-align: left;
+    vertical-align: top;
+    line-height: 1.8em;
+    padding-top: 2em;
+}
+
+.cuantumproductcard {
+    padding-bottom: 4em;
+}
+
+.productresalt {
+    font-size: 18px;
+    padding-bottom: 8px;
+}
+
+.productresaltnou {
+    font-size: 15px;
+    padding-bottom: 8px;
+}
+
+
+.textcaractlabel {
+    font-weight: 800;
+}
+
+.textcaractinfo {
+    padding-left: 30px
+}
+
+.cuantumproduct {
+    padding-top: 64px;
+}
+
+#slidetextv11 {
+    left:130px;
+    top:250px;
+    font-size: 64px;
+    line-height: 1.2em;
+}
+
+#slidetextv12 {
+        right:100px;
+    top:400px;
+    font-size: 50px;
+    text-align: right;
+    
+    line-height: 1.1em;
+}
+
+
+
+
+#slidetextc11 {
+    left:100px;
+    width:1190px;
+    text-align: left;
+    top:70px;
+    font-size: 64px;
+    width:500px
+}
+
+#slidetextc12 {
+    right:100px;
+    width:1190px;
+    text-align: right;
+    top:350px;
+    width:650px;
+    font-size: 64px;
+}
+
+
+
+
+#slidetextcd11 {
+    left:100px;
+    width:1190px;
+    text-align: left;
+    top:70px;
+    font-size: 64px;
+    width:500px
+}
+
+#slidetextcd12 {
+    right:100px;
+    width:1190px;
+    text-align: right;
+    top:350px;
+    width:650px;
+    font-size: 64px;
+}
+
+
+
+.cuantumproducttitle.small .cuantumnameproduct {
+  
+}
+
+
+.cuantumproducttitle.small .cuantumnameproductnou {
+  
+}
+
+
+.slidetext.text2 {
+    font-size: 50px;
+}
+
+.emphasis {
+    font-style: italic;
+}
+
+.slideboles {
+    width:100%;
+    position:absolute;
+    text-align: center;
+    top:520px
+}
+
+.slideboles img {
+    margin: 0px 6px 0px 6px;
+    width: 14px;
+}
+
+#videoboles {
+    text-align: center;
+}
+
+#cuantumfootnav .menuselected {
+    color:black;
+        font-family: 'ClearSansRegular', Sansserif, Sans;
+
+}
+
+#cuantumnavsup {
+    padding-bottom: 40px;
+    
+}
+
+#baller {
+    width:1190px;
+    height: 1190px;
+    background-color: aliceblue;
+     vertical-align: middle;
+}
+
+.ballerball {
+    display:inline-block;
+    position: absolute;
+    width:130px;
+    height: 150px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 150px;
+    line-height: 150px;
+    border:1px solid black;    
+    -webkit-transition-duration: .5s; /* Safari */
+    transition-duration: .5s;
+    padding:0 10px 0 10px;
+
+}
+.ballerball:hover
+{
+    zoom:2;
+}
+
+.ballerballtext {
+
+    vertical-align: middle;
+    display: inline-block;
+    line-height: 1.6em;
+}
+
+#cuantumcontent {
+    display:block;
+}
+
+.cuantumblockhead img {
+        width:90%;
+        max-width: 373px;
+}
+
+.precuantumslider {
+    text-align: center;
+    width:100%;
+}
+
+.cuantumslidershow img {
+    width:1190px;
+    height: 563px;
+}
+
+#cuantumlogo img {
+    width: 100%;
+    max-width: 400px;
+}
+
+#page_mission {
+
+}
+
+#bolarium img {
+    width:100%;
+}
+
+.cuantumproductimage img {
+max-height: 15em;
+}
+
+.cuantumproducts {
+    padding: 2em 5% 0 5%;
+        width:90%;
+}
+
+img {
+    
+}
+
+.bshadow img {
+    width:100%;
+}
+
+img {
+    
+}
+
+.xarxessocials {
+    margin-left: 10px;
+    wpadding-left: 35px;
+    wmargin-right: 5px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: left center;
+    cursor: pointer;   
+}
+
+#face {
+    background-image: url(imatges/ico_facebook.png);
+    width: 11px;
+    height: 20px;
+    etop: 7px;
+    eposition: relative;  
+}
+
+#twitter {
+    background-image: url(imatges/ico_twitter.png);
+    width: 29px;
+    height: 20px;
+    etop: 7px;
+    eposition: relative;
+}
+
+
+
+#linkedin {
+    background-image: url(imatges/ico_linkedin.png);
+    width: 20px;
+    height: 20px;
+    etop: 7px;
+    eposition: relative;   
+}
+
+
+
+#slidetextv11m {
+font-size: 46px;
+    line-height: 1.2em;
+    color: #222;
+    top: 290px;
+    left: 50px;
+}
+
+#slidetextv12m {
+font-size: 46px;
+    line-height: 1.2em;
+    color: #222;
+    top: 346px;
+    left: 50px;
+}
+
+
+
+
+.ballrball {
+    display: inline-block;
+    margin: 0px 0px 38px 0px;
+}
+
+.monomh3 {
+    width: 80%;
+    display: inline-block;
+    margin-bottom: 26px;
+    border-bottom: 1px solid #aaa;
+    font-size:14px;
+}
+
+#monomerballes {
+    text-align: center;
+}
+
+.acenter {
+    text-align: center;    
+}
+
+#monomerinfo {
+    color: white;
+    font-size: 25px;
+    line-height: 1.2em;
+    text-align: left;
+        padding-bottom: 78px;
+    padding-left: 25px;
+}
+
+h3.monomh3w {
+        font-size: 20px;
+    margin-top: 50px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+
+
+
+.infoblockm {
+    display:inline-block;
+        vertical-align: top;
+        text-align: left;
+        margin-top: 24px;
+}
+
+.monomh3w {
+    width: 80%;
+    display: inline-block;
+    margin-bottom: 98px;
+    border-bottom: 1px solid #fff;
+}
+
+#infoblockm2 {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    display:none;
+}
+
+.monboldtext {
+    font-weight: 900;
+    margin-bottom: 30px
+}
+
+
+
+
+#cuantummenu #medmenumonomer {
+/*text-align: center;*/
+    display:none;
+    margin-top: 0px;
+ /*   width:160px;*/
+}
+.nomesmovil{
+display:block;
+}
+.tresralles{
+    position: sticky;
+    top: 0;
+    padding: 0;
+    margin-left: 10px;
+    display: block;
+        width: 50px;
+}
+.tresralles svg{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+#cuantumnav{
+	transform: translateX(-100%);
+	transition: all .4s ease-out;
+	    position: absolute;
+    z-index: 999;
+    background: white;
+    top: 0px;
+    height: 100VH;
+    padding-top: 1vh;
+    padding-left: 3vw;
+}
+#cuantumnav .tresralles{
+height:auto;
+position:auto;
+padding:0px;
+margin-left:0px;
+display:auto;
+}
+#cuantumnav .tresralles svg{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+#cuantummenu ul{
+
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=checkbox]:checked ~ #cuantumnav{
+	transform: translateX(0);
+
+}
+#medmenu:hover #medmenumonomer {
+display: block;
+}
+
+
+
+#cuantummenu #medmenudent {
+/*text-align: center;*/
+    display:none;
+    margin-top: 0px;
+/*    width:160px;*/
+}
+
+#medmenu:hover #medmenudent {
+display: block;
+}
+
+#medmenu:hover #medmenumed {
+display: block;
+}
+
+
+#cosmenu:hover #menucos {
+display: block;
+}
+
+#cosmenu {
+
+}
+
+#medmenu {
+
+}
+
+#cuantummenu #medmenumed {
+/*text-align: center;*/
+    display:inline-block;
+     margin-top: 0px;
+     width:110px;
+
+}
+
+.centrat{
+    text-align: center;
+}
+
+.amaga {
+display: none;
+}
+
+
+.mostra {
+display: block;
+}
+
+
+
+
+
+#cuantummenu #medmenumed {
+/*text-align: center;*/
+    display:inline-block;
+     margin-top: 0px;
+     width:115px;
+
+}
+
+#cuantummenu #menucos {
+/*text-align: center;*/
+
+    display: block;
+    color: #000;
+    padding: 8px 10px 8px 10px;
+    text-decoration: none;
+    margin-top: 26px;
+    color: #99999a;
+    
+    
+  -webkit-transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -o-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+
+
+    text-decoration: none;
+    color: #99999a;
+
+    display:inline-block;
+     margin-top: 0px;
+     width:115px;
+    margin-left: -17px;
+}
+
+#cuantummenu #menueye {
+/*text-align: center;*/
+    display:none;
+    margin-top:  0px;
+/*    width:160px;*/
+}
+
+#cosmenu:hover #menueye {
+display: block;
+}
+
+
+
+#cuantummenu #menunail {
+/*text-align: center;*/
+    display:none;
+     margin-top: 0px;
+     width:155px;
+
+}
+
+
+
+
+
+/*#page_med .cuantumproduct, */
+#page_cos .cuantumproduct {
+    padding-top: 20px;
+}
+
+/*#page_med .cuantumproductcard,*/
+#page_cos .cuantumproductcard
+{
+     padding-bottom: 0px;
+}
+
+/*#page_med .cuantumproductimage,*/
+#page_cos .cuantumproductimage
+{
+        display: table-cell;
+    width: 300px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 60px;
+    max-width: 300px;
+    min-width: 300px;
+}
+
+/*#page_med .cuantumproductimage img,*/
+#page_cos .cuantumproductimage img {
+    max-height:260px;
+}
+
+
+
+
+
+
+/*
+#cuantummenu li a[pageid="page_dent"].menuselected
+{
+display:inline-block;
+    color: white;
+    font-family: 'ClearSansRegular', Sansserif, Sans;
+    font-weight: 600;
+}
+
+*/
+
+
+
+
+.dispno{
+display:none;
+}
+.nomovil{
+display:none !important;
+}
+.inversores {
+	display: flex;
+    width: 100%;
+    background-image: url(imatges/CAPCALERAWEBCUANTUM.png);
+    justify-content: space-around;
+    background-size: cover;
+    padding: 6vw 0;
+    margin-bottom: 4vw;
+    flex-direction: column;
+    height: 60vh;
+}
+
+.portaboto-inversors{
+	display: flex;
+    justify-content: center;
+    margin-top: 4vw;
+}
+.boto-inversors{
+	color:white;
+	background-color: #74b9ad;
+    padding: 1.5vw;
+    border-radius: 10px;
+    box-shadow: 2px 2px #8d9093;
+    font-weight: bold;
+}
+.text-inversors{
+	color:white;
+	text-shadow: 2px 2px #8D9093;
+}
+.text-inversors .bold{
+	font-weight: bold;
+}
+.text-inversors p{
+	margin:0px;
+}
+.portatextos-inversors{
+	width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+.video-inversors{
+width: 80vw;
+    align-self: center;
+}
+.video-inversors iframe{
+        width: 80vw;
+    height: 45.54vw;
+}
+#medlabel{
+display:inherit;
+padding-top:0px;
+}
+#medmenu{
+display:block;
+}
+#cosmenu{
+display:block;
+}
+#menunail{
+display:block !important;
+
+}
+#menueye{
+display:block !important;
+}
+#menucos{
+display:none !important;}
+#medmenumonomer{
+display:block !important;
+    padding-left: 15px;}
+#medmenudent{
+display:block !important;
+    padding-left: 15px;}
+.docdesclist{
+display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.docdesclist a{
+width: 40%;
+    display: flex;
+}
+.docdesclist a img{
+max-width:50%;
+}
